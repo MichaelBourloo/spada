@@ -1,0 +1,283 @@
+.headleft {
+  background: #19a29b;
+  width: 50vw;
+  height: 125vh;
+  border: 1px solid;
+  border-color: #19a29b; }
+  .headleft #hi {
+    width: 33%;
+    color: black;
+    font-size: 10vh;
+    font-family: 'Lobster', cursive; }
+  .headleft a {
+    text-decoration: none;
+    color: black; }
+  .headleft .quality {
+    text-align: center;
+    margin-bottom: 7vh;
+    color: papayawhip;
+    word-spacing: 15%; }
+  .headleft .informations {
+    font-family: 'Open-sans', sans-serif;
+    margin-bottom: 4vh;
+    margin-left: 8.5vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 14px;
+    color: whitesmoke;
+    border-radius: 6px;
+    width: 30vw;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08); }
+    .headleft .informations .info-text {
+      text-rendering: auto;
+      margin-bottom: 2vh;
+      font-size: 90%;
+      font-weight: bold;
+      font-style: italic; }
+    .headleft .informations .info-text1 {
+      margin-bottom: 2vh;
+      font-size: 90%;
+      font-weight: bold;
+      font-style: italic; }
+    .headleft .informations .info-text2 {
+      margin-bottom: 2vh;
+      font-size: 90%;
+      font-weight: bold;
+      font-style: italic; }
+  .headleft .onme {
+    text-decoration-line: unset;
+    text-decoration-color: #607d8b;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 6vh;
+    font-size: 4vh;
+    font-family: 'Dosis', sans-serif; }
+  .headleft #experience {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    margin-top: 5vh; }
+
+.formulaire-contact {
+  height: 0;
+  opacity: 0;
+  width: 98vw;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background-color: whitesmoke;
+  border-radius: 5px; }
+  .formulaire-contact .icones {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-top: 17vh;
+    margin-left: 4.5vw;
+    text-align: center; }
+    .formulaire-contact .icones .fa-4x {
+      color: #3f94bb;
+      margin-right: 1vw; }
+  .formulaire-contact .form {
+    margin-left: 2vw;
+    margin-top: 3vh;
+    display: inline-block;
+    width: 62%;
+    height: 100%; }
+    .formulaire-contact .form .fa-2x {
+      color: #3f94bb;
+      margin-left: 28vw; }
+  .formulaire-contact #area {
+    padding-right: 5.35vw;
+    resize: none;
+    margin-top: 2vh;
+    margin-left: 2.3vw;
+    border-top: 1px double;
+    border-top-color: #607d8b;
+    border-bottom-color: #19a29b;
+    border-right-color: #19a29b;
+    color: #795548; }
+  .formulaire-contact #name {
+    width: 44.85vw;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-left: 2.3vw;
+    border-top: 1px double;
+    border-top-color: #607d8b;
+    border-bottom-color: #19a29b;
+    border-right-color: #19a29b;
+    font-size: 125%;
+    font-family: 'Lobster', cursive;
+    color: #19a29b; }
+  .formulaire-contact #mail {
+    width: 44.85vw;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-left: 2.3vw;
+    border-top: 1px double;
+    border-top-color: #607d8b;
+    border-bottom-color: #19a29b;
+    border-right-color: #19a29b;
+    font-size: 125%;
+    font-family: 'Lobster', cursive;
+    color: #19a29b; }
+  .formulaire-contact #send {
+    margin-left: 20vw;
+    margin-top: 2vh;
+    background-color: #19a29b;
+    border: none;
+    color: whitesmoke;
+    font-size: 125%;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden; }
+    .formulaire-contact #send:hover {
+      background: #b2dfdb;
+      box-shadow: 0px 2px 10px 5px #3f94bb;
+      color: #19a29b;
+      font-weight: bolder; }
+    .formulaire-contact #send:after {
+      content: "";
+      background: #80a5b2;
+      position: absolute;
+      margin-bottom: 5vh;
+      margin-left: -20px !important;
+      opacity: 0;
+      transition: all 0.8s; }
+    .formulaire-contact #send:active:after {
+      opacity: 1;
+      transition: 0s; }
+  .formulaire-contact #cont {
+    font-family: 'Lobster', cursive;
+    color: #795548;
+    margin-bottom: 1vh; }
+  .formulaire-contact.show {
+    opacity: 1;
+    height: 42vh; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(90deg, #19a29b 50.05%, #607d8b 50%); }
+
+.contener {
+  display: flex;
+  width: 100%;
+  margin: 0 auto; }
+
+#headright {
+  background: #607d8b;
+  width: 50vw;
+  height: 125vh;
+  border: 1px solid;
+  border-color: #607d8b; }
+  #headright #spada {
+    width: 58%;
+    text-align: center;
+    color: #19a29b;
+    font-size: 10vh;
+    font-family: 'Lobster', cursive; }
+  #headright h4 {
+    text-decoration-line: overline;
+    text-decoration-color: #19a29b;
+    text-align: center;
+    padding-bottom: 5vh;
+    color: white;
+    margin-bottom: 3vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 4vh;
+    font-family: 'Dosis', sans-serif; }
+  #headright h5 {
+    color: white;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif; }
+  #headright h6 {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-top: 3vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 175%;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 3px; }
+  #headright #item1 {
+    text-align: left;
+    padding-right: 15vw;
+    margin-bottom: 4vh;
+    font-weight: normal;
+    font-style: italic; }
+  #headright #item2 {
+    text-align: left;
+    margin-left: 15vw;
+    margin-bottom: 4vh;
+    font-weight: normal;
+    font-style: italic; }
+  #headright #item3 {
+    text-align: left;
+    padding-right: 15vw;
+    margin-bottom: 4vh;
+    font-weight: normal;
+    font-style: italic; }
+  #headright #item4 {
+    text-align: left;
+    margin-left: 15vw;
+    margin-bottom: 1vh;
+    font-weight: normal;
+    font-style: italic; }
+  #headright .img #choco {
+    margin-top: 2vh;
+    margin-left: 22vw;
+    width: 100px;
+    height: 100px; }
+  #headright button:hover {
+    cursor: pointer; }
+  #headright button {
+    background: #19a29b;
+    outline: none;
+    position: relative;
+    border: 1px inset whitesmoke;
+    padding: 20px 60px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    margin-bottom: 4vh; }
+  #headright button:hover:before {
+    opacity: 1;
+    transform: translate(0, 0); }
+  #headright button:before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 1.8em;
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: .8em;
+    opacity: 0;
+    transform: translate(-100%, 0);
+    transition: all .3s ease-in-out; }
+  #headright button:hover div {
+    opacity: 0;
+    transform: translate(100%, 0); }
+  #headright button div {
+    text-transform: uppercase;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: .8em;
+    transition: all .3s ease-in-out; }
+
+/*# sourceMappingURL=index.css.map */

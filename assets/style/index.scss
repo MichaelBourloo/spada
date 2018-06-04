@@ -1,0 +1,160 @@
+@import "partial/left";
+@import "partial/contact";
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(90deg, rgba(25,162,155,1) 50.05%, rgba(96,125,139,1) 50%);
+}
+
+.contener {
+    display: flex;
+    width: 100%;  
+    margin: 0 auto;   
+} 
+
+// coté droit presentation spada.be
+#headright {        
+    background: #607d8b;        
+    width: 50vw;
+    height: 125vh;
+    border: 1px solid;
+    border-color: #607d8b;
+
+    #spada {
+        width: 58%;
+        text-align: center;
+        color: #19a29b;
+        font-size: 10vh;
+        font-family: 'Lobster', cursive;
+    }
+
+    h4 {
+        text-decoration-line: overline;
+        text-decoration-color: #19a29b;
+        text-align: center;
+        padding-bottom: 5vh;
+        color: white;
+        margin-bottom: 3vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        font-size: 4vh;
+        font-family: 'Dosis', sans-serif;
+
+    }
+
+    h5 {        
+        color: white;
+        margin-top: 5vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-size: 100%;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h6 {        
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08);            
+        border-radius: 5px;        
+        text-align: center;
+        color: white;
+        margin-top: 3vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        font-size: 175%;
+        font-family: 'Dosis', sans-serif;
+        letter-spacing: 3px;
+    }
+
+    #item1 {        
+        text-align: left;
+        padding-right: 15vw;
+        margin-bottom: 4vh; 
+        font-weight: normal;
+        font-style: italic;
+        
+    }
+
+    #item2 {        
+        text-align: left;
+        margin-left: 15vw;
+        margin-bottom: 4vh;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    #item3 {        
+        text-align: left;
+        padding-right: 15vw;
+        margin-bottom: 4vh;
+        font-weight: normal;
+        font-style: italic;
+    }
+
+    #item4 {        
+        text-align: left;
+        margin-left: 15vw;
+        margin-bottom: 1vh;
+        font-weight: normal;
+        font-style: italic;
+    }    
+
+    .img {
+
+        #choco {   
+            margin-top: 2vh;     
+            margin-left: 22vw;
+            width: 100px;
+            height: 100px;
+            
+        }    
+    }
+
+    button:hover {
+        cursor: pointer
+    }
+
+    button {
+        background: #19a29b; outline: none;
+        position: relative;
+        border: 1px inset whitesmoke;
+        padding: 20px 60px;
+        overflow: hidden;
+        border-radius: 5px;       
+        margin-left: 15vw;
+        margin-top: 10vh;
+        margin-bottom: 4vh;
+    }
+
+    button:hover:before {
+        opacity: 1; transform: translate(0,0);
+    }
+
+    button:before {
+        content: attr(data-hover);
+        position: absolute;
+        top: 1.8em; left: 0;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        color: whitesmoke;
+        font-weight: 800;
+        font-size: .8em;
+        opacity: 0;
+        transform: translate(-100%, 0);
+        transition: all .3s ease-in-out;
+    }
+
+    button:hover div{
+        opacity: 0; transform: translate(100%,0);
+        
+    }
+    button div {
+        text-transform: uppercase;
+        color: whitesmoke;
+        letter-spacing: 5px;
+        font-weight: 900;
+        font-size: .8em;
+        transition: all .3s ease-in-out;
+    }
+}
