@@ -3,7 +3,7 @@
     opacity: 0;    
     width: 98vw;   
     overflow: hidden;     
-    transition: all 0.3s ease;      
+    transition: all 0.4s ease-in;      
     background-color: whitesmoke; 
     border-radius: 5px;
     
@@ -120,11 +120,14 @@
             font-family: 'Lobster', cursive;
             color: #795548;
             margin-bottom: 1vh;
-        }        
-
+        }      
 
     &.show {
         opacity: 1;
         height: 42vh;
     }
+}
+
+@media screen and (max-width: 768px) {
+    
 }

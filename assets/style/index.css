@@ -60,12 +60,18 @@
     font-size: 200%;
     margin-top: 5vh; }
 
+@media screen and (max-width: 768px) {
+  .headleft {
+    width: 50vw; }
+    .headleft #hi {
+      transform: translateX(55px);
+      font-size: 5vh; } }
 .formulaire-contact {
   height: 0;
   opacity: 0;
   width: 98vw;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease-in;
   background-color: whitesmoke;
   border-radius: 5px; }
   .formulaire-contact .icones {
