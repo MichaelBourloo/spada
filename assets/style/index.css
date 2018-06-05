@@ -60,12 +60,29 @@
     font-size: 200%;
     margin-top: 5vh; }
 
-@media screen and (max-width: 768px) {
-  .headleft {
-    width: 50vw; }
-    .headleft #hi {
-      transform: translateX(55px);
-      font-size: 5vh; } }
+@media (max-width: 768px) {
+  html {
+    width: 97vw; }
+
+  .headleft #hi {
+    transform: translateX(55px);
+    font-size: 5vh; }
+  .headleft .onme {
+    margin-right: 7vw;
+    font-size: 3vh; }
+  .headleft .quality {
+    text-align: left;
+    margin-bottom: 7vh;
+    color: papayawhip;
+    word-spacing: 1%;
+    font-size: 2vh;
+    margin-right: 0.921vw; }
+  .headleft .informations {
+    margin-left: 2.6vw;
+    font-size: 2vh; }
+  .headleft #experience {
+    font-size: 75%;
+    margin-right: 1.5vw; } }
 .formulaire-contact {
   height: 0;
   opacity: 0;
@@ -165,6 +182,38 @@
     opacity: 1;
     height: 42vh; }
 
+@media screen and (max-width: 768px) {
+  .formulaire-contact {
+    width: 92vw; }
+    .formulaire-contact .icones {
+      display: inline-block;
+      width: 16%;
+      vertical-align: top;
+      margin-top: 1vh;
+      margin-left: 4.5vw;
+      text-align: center; }
+    .formulaire-contact .form {
+      margin-left: 2vw;
+      margin-top: 3vh;
+      display: inline-block;
+      width: 62%;
+      height: 100%; }
+      .formulaire-contact .form #name {
+        width: 60.85vw;
+        height: 4vh;
+        margin-top: 1vh;
+        margin-left: 2.3vw; }
+      .formulaire-contact .form #mail {
+        width: 60.85vw;
+        height: 4vh;
+        margin-top: 2vh;
+        margin-left: 2.3vw; }
+      .formulaire-contact .form #area {
+        margin-left: 2.3vw;
+        width: 55.6vw; }
+      .formulaire-contact .form #send {
+        margin-left: 10vw;
+        margin-top: 1vh; } }
 body {
   font-family: 'Open Sans', sans-serif;
   background: linear-gradient(90deg, #19a29b 50.05%, #607d8b 50%); }
@@ -285,5 +334,35 @@ body {
     font-weight: 900;
     font-size: .8em;
     transition: all .3s ease-in-out; }
+
+@media screen and (max-width: 768px) {
+  #headright {
+    width: 45.2vw; }
+    #headright #spada {
+      transform: translateX(38px);
+      font-size: 5vh; }
+    #headright h4 {
+      text-decoration-line: none;
+      font-size: 3vh; }
+    #headright h6 {
+      margin-right: 0vw;
+      font-size: 84%; }
+    #headright .img #choco {
+      margin-left: 15vw;
+      width: 50px;
+      height: 50px; }
+    #headright #item1 {
+      font-size: 2vh; }
+    #headright #item2 {
+      font-size: 2vh;
+      margin-left: 21vw; }
+    #headright #item3 {
+      font-size: 2vh; }
+    #headright #item4 {
+      font-size: 2vh;
+      margin-left: 21vw; }
+    #headright #btn5 {
+      padding: 13px 12px;
+      margin-left: 3vw; } }
 
 /*# sourceMappingURL=index.css.map */

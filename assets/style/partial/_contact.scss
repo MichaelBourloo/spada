@@ -129,5 +129,48 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    .formulaire-contact {
+        width: 92vw;
+
+        .icones {
+            display: inline-block;
+            width: 16%;
+            vertical-align: top;
+            margin-top: 1vh;
+            margin-left: 4.5vw;
+            text-align: center;
+        }
+
+        .form {
+            margin-left: 2vw;
+            margin-top: 3vh;
+            display: inline-block;
+            width: 62%;
+            height: 100%;
+
+            #name {
+                width: 60.85vw;
+                height: 4vh;
+                margin-top: 1vh;
+                margin-left: 2.3vw;
+            }
+
+            #mail {
+                width: 60.85vw;
+                height: 4vh;
+                margin-top: 2vh;
+                margin-left: 2.3vw;
+            }
+
+            #area {
+                margin-left: 2.3vw;
+                width: 55.6vw;
+            }
+
+            #send {
+                margin-left: 10vw;
+                margin-top: 1vh;
+            }
+        }
+    }
 }

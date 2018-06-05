@@ -81,14 +81,43 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    html {
+        width: 97vw;
+    }
     .headleft {
-        width: 50vw;
+        
         
         #hi {
+            
             transform: translateX(55px);
             font-size: 5vh;
         }
-    }
-    
+
+        .onme {            
+            margin-right: 7vw;            
+            font-size: 3vh;
+        }
+
+        .quality {
+            text-align: left;
+            margin-bottom: 7vh;
+            color: papayawhip;
+            word-spacing: 1%;
+            font-size: 2vh;            
+            margin-right: 0.921vw;            
+        }
+
+        .informations {
+            margin-left: 2.6vw;
+            font-size: 2vh;
+        }
+
+        #experience {
+            font-size: 75%;
+            margin-right: 1.5vw;
+        }
+
+        
+    }    
 }

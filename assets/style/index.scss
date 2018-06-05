@@ -158,3 +158,56 @@ body {
         transition: all .3s ease-in-out;
     }
 }
+
+@media screen and (max-width: 768px) {    
+    #headright {
+        width: 45.2vw;
+
+        #spada {
+            
+            transform: translateX(38px);
+            font-size: 5vh;
+        }
+
+        h4 {
+            text-decoration-line: none;
+            font-size: 3vh;
+        }
+
+        h6 {
+            margin-right: 0vw;
+            font-size: 84%;
+        }
+
+        .img {
+            #choco {                
+                margin-left: 15vw;
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        #item1 {
+            font-size: 2vh;
+        }
+
+        #item2 {
+            font-size: 2vh;
+            margin-left: 21vw;
+        }
+
+        #item3 {
+            font-size: 2vh;
+        }
+
+        #item4 {
+            font-size: 2vh;
+            margin-left: 21vw;
+        }
+
+        #btn5 {
+            padding: 13px 12px;
+            margin-left: 3vw;
+        }
+    }
+}
