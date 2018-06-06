@@ -8,6 +8,7 @@
     border-color: #19a29b;
 
     #hi {
+        margin-left: 18vw;
         width: 33%;
         color: black;
         font-size: 10vh;
@@ -89,8 +90,8 @@
         
         
         #hi {
-            
-            transform: translateX(55px);
+            margin-left: 14vw;
+            // transform: translateX(44px);
             font-size: 5vh;
         }
 
@@ -100,6 +101,7 @@
         }
 
         .quality {
+            display: none;
             text-align: left;
             margin-bottom: 7vh;
             color: papayawhip;

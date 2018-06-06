@@ -140,7 +140,7 @@ if(isset($_POST['mailform']))
 						<label for="name"></label>
 						<input type="email" placeholder="Votre e-mail" name="mail" id="mail" value="<?php if(isset($_POST['mail'])) { echo $_POST['mail']; } ?>">
 						<textarea name="message" placeholder="Votre message" id="area" cols="77." rows="5"><?php if(isset($_POST['message'])) { echo $_POST['message']; } ?></textarea>
-						<input type="submit" id="send" value="Envoyer !" name="mailform" />
+						<input type="submit" id="send" value="Send" name="mailform" />
 						<a href="#" title="Haut de page" class="scrollup"><i class="fa fa-arrow-up fa-2x"></i></a>
 					</form>	
 				</div>

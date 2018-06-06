@@ -22,6 +22,7 @@ body {
     border-color: #607d8b;
 
     #spada {
+        margin-left: 10vw;
         width: 58%;
         text-align: center;
         color: #19a29b;
@@ -165,7 +166,7 @@ body {
 
         #spada {
             
-            transform: translateX(38px);
+            // transform: translateX(33px);
             font-size: 5vh;
         }
 
@@ -180,7 +181,8 @@ body {
         }
 
         .img {
-            #choco {                
+            #choco {   
+                display: none;             
                 margin-left: 15vw;
                 width: 50px;
                 height: 50px;

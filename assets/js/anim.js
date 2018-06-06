@@ -1,8 +1,8 @@
-var hi = anime ({
-    targets: '#hi',
-    translateX: 280,
-    duration: 3000,
-});
+// var hi = anime ({
+//     targets: '#hi',
+//     translateX: 280,
+//     duration: 3000,
+// });
 
 // // Fonction exécutée au redimensionnement
 // function animation() {
@@ -22,11 +22,11 @@ var hi = anime ({
 //   // On lie l'événement resize à la fonction
 //   window.addEventListener('resize', animation, false);
 
-var spada = anime ({
-    targets: '#spada',
-    translateX: 170,
-    duration: 3000,
-});
+// var spada = anime ({
+//     targets: '#spada',
+//     translateX: 170,
+//     duration: 3000,
+// });
 
 var myStats = {
     Motivation: '0%',    

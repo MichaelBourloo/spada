@@ -131,6 +131,7 @@
 @media screen and (max-width: 768px) {
     .formulaire-contact {
         width: 92vw;
+        transform: translateY(-63px);
 
         .icones {
             display: inline-block;
@@ -139,6 +140,12 @@
             margin-top: 1vh;
             margin-left: 4.5vw;
             text-align: center;
+
+            .fa-4x {
+                margin-top: 2vh;
+                font-size: 3em;
+                margin-left: 4px;
+            }
         }
 
         .form {
@@ -170,6 +177,10 @@
             #send {
                 margin-left: 10vw;
                 margin-top: 1vh;
+            }            
+
+            .fa-2x {
+                display: none;
             }
         }
     }
