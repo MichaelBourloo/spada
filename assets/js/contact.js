@@ -6,7 +6,7 @@ const smoothScrollTo = (endY, duration = 400) => {
     distanceY = endY - startY,
     startTime = new Date().getTime();
     
-    const easeInOut = (time, from, distance, duration) => {
+    const easeIn = (time, from, distance, duration) => {
         if ((time /= duration / 2) < 1) {
             return distance / 2 * time * time * time * time + from;
         } else {
@@ -16,7 +16,7 @@ const smoothScrollTo = (endY, duration = 400) => {
     
     const timer = setInterval(() => {
         const time = new Date().getTime() - startTime,
-      newY = easeInOut(time, startY, distanceY, duration);
+      newY = easeIn(time, startY, distanceY, duration);
       if (time >= duration) {
         clearInterval(timer);
     }

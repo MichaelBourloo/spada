@@ -1,5 +1,6 @@
 .headleft {
   background: #19a29b;
+  opacity: 0.8;
   width: 50vw;
   height: 125vh;
   border: 1px solid;
@@ -234,6 +235,7 @@ body {
 
 #headright {
   background: #607d8b;
+  opacity: 0.8;
   width: 50vw;
   height: 125vh;
   border: 1px solid;
