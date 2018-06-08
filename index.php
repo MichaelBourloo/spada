@@ -1,33 +1,24 @@
 <?php
+if($_POST){
+	$nom = ($_POST['nom']);
+	$mail = ($_POST['mail']);
+	$message = ($_POST['message']);	
+}
+
+
+
 if(isset($_POST['mailform']))
 {
 	if(!empty($_POST['nom']) AND !empty($_POST['mail']) AND !empty($_POST['message']))
 	{
-		$header="MIME-Version: 1.0\r\n";
-		$header.='From:"Bourloomichael.be"'."\n";
-		$header.='Content-Type:text/html; charset="uft-8"'."\n";
-		$header.='Content-Transfer-Encoding: 8bit';
-
-		$message='
-		<html>
-			<body>
-				<div align="center">					
-					<u>Nom de l\'expéditeur :</u>'.$_POST['nom'].'<br />
-					<u>Mail de l\'expéditeur :</u>'.$_POST['mail'].'<br />
-					<br />
-					'.nl2br($_POST['message']).'
-					<br />					
-				</div>
-			</body>
-		</html>
-		';
-
-		mail("michael.bourloo@gmail.com", "CONTACT - Bourloomichael.be", $message, $header);
+		mail("michael.bourloo@gmail.com", "CONTACT - Bourloomichael.be", "$message", "$mail");
 		$msg="Votre message a bien été envoyé !";
+		// echo "oui";
 	}
 	else
 	{
 		$msg="Tous les champs doivent être complétés !";
+		// echo "non";
 	}
 }
 ?>
