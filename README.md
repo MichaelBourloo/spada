@@ -2,9 +2,6 @@
 
 <details>
   <summary>Langages utilisés</summary>
-  
-  <p>HTML5</p>
-  CSS/SCSS
-  Librairie Javascript : Anime.js
-  Un peu de PHP pour le formulaire
+  <br>
+  HTML5 - CSS/SCSS - Librairie Javascript : Anime.js - Un peu de PHP pour le formulaire
 </details>
