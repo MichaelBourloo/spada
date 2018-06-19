@@ -1,7 +1,7 @@
-To do for Spada : 
+## Création d'un mini-site pour Spada - Spade - MonkeyBridge
 
-Responsive Design
-Scroll
-Activation Mail via OVH
-
-Options : Checkbox Design ?!
+<details>
+  <summary>Langages utilisés</summary>
+  <br>
+  HTML5 - CSS/SCSS - Librairie Javascript : Anime.js - Un peu de PHP pour le formulaire
+</details>
