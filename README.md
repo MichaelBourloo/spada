@@ -1,6 +1,6 @@
 # Bienvenue sur GaraMail !
 
-## Lien des consignes
+## Lien du site ?
 [https://michaelbourloo.be/spada](https://michaelbourloo.be/spada)
 
 ## Langages utilisés ?
