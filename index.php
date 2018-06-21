@@ -37,7 +37,7 @@ if(isset($_POST['mailform']))
 		<title>For Spada.be</title>
 	</head>
 	<body>
-		<div class="contener">
+		<section class="contener">
 			<div class="headleft">
 				<p>
 					<h1 id="hi">Hello</h1>
@@ -117,7 +117,7 @@ if(isset($_POST['mailform']))
 				</div>								
 				<a href="#modal"><button id="btn5" data-hover="Merci !"><div>Contactez Moi !</div></button></a>			
 			</div>				
-		</div>
+		</section>
 		<div class="formulaire">
 			<div id="modal" class="formulaire-contact">								
 				<div class="icones">
