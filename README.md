@@ -1,7 +1,7 @@
 # Minisite for Spada !
 
 ## Lien du site ?
-[https://michaelbourloo.be/spada](https://michaelbourloo.be/spada)
+
 
 ## Langages utilisés ?
 
